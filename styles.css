@@ -62,18 +62,18 @@ form{
     top:58px;
 }
 .keyboard-icon:hover{
-
+    cursor: pointer;
 }
 .buttons{
     display: flex;
     justify-content: center;  
 }
 .search-buttons{
-    color: #65696e;
-    border-width: 1px;
+    color: #404244;
     border: solid;
     background-color: #f4f4f4;
     border-color: #f4f4f4;
+    border-width: 1.5px;
     border-radius: 5%;
     padding:10px;
     margin:2px;
