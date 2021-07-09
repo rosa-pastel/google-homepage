@@ -35,7 +35,7 @@ form{
     top:58px;
 }
 .keyboard-icon:hover{
-    
+
 }
 .buttons{
     display: flex;
@@ -44,14 +44,14 @@ form{
 button{    
     background-color: #f4f4f4;
     color: #65696e;
-    border: thin;
+    border:solid;
+    border-width: 1px;
+    border-color: #f4f4f4;
     border-radius: 5%;
     padding:10px;
     margin:2px;
 }
 button:hover{
-    border: solid;
-    border-width: 1px;
     border-color: #a8a8a8;;
     cursor: pointer;
 }
