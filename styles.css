@@ -17,10 +17,13 @@ a{
     font-weight: bold;
     display: flex;
     align-self: center;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5%;
-    border-color: #4583eb;
-    border:solid;
+    border:thin;
+}
+.sign-in:hover{
+    border:none;
+    box-shadow: 1px 1px 0.45px 0.50px #4583eb;
 }
 .container{
     display: flex;
@@ -75,7 +78,7 @@ form{
     padding:10px;
     margin:2px;
 }
-button:hover{
+.search-buttons:hover{
     border-color: #a8a8a8;;
     cursor: pointer;
 }
