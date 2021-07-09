@@ -8,7 +8,7 @@
     align-items: center;
 }
 div{
-    padding-bottom: 125%;
+    padding-bottom: 45%;
     flex-direction: row;
     align-items: flex-start;
 }
@@ -18,10 +18,17 @@ div{
     align-items: center;
 }
 #search{
-    justify-items: center;
+    border-radius: 50px;
+    margin: 20px;
+    height: 50px;
+    width: 600px;
 }
+.search-icon{
+    opacity: 40%;
+}    
 .buttons{
     flex-direction: row;
+    
 }
 button{    
     background-color: #f4f4f4;
@@ -38,6 +45,6 @@ button{
 input{
     background-color: white;
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #f4f4f4;
 }
