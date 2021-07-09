@@ -1,16 +1,36 @@
-body{
+.container{
+    height: 100vh;
+    width: 100vw;
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 div{
+    padding-bottom: 125%;
     flex-direction: row;
+    align-items: flex-start;
 }
 .search-form{
+    margin: 10px;
     flex-direction: column;
 }
 button{
     background-color: #f4f4f4;
-    border: none;
+    color: #65696e;
+    border: thin;
+    border-radius: 5%;
+    padding:10px;
+    margin: 10px;
     text-align: center;
 }
+.google-logo{
+    padding: 10px;
+}
+input{
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: #f4f4f4;
+    }
