@@ -1,10 +1,26 @@
 .header{
-    padding: 15px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: flex-end;
     background-color: white;
+}
+a{
+    color: rgb(48, 47, 47);
+    margin: 20px;
+}
+.sign-in{
+    background-color: #4583eb;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: #4583eb;
+    border:solid;
 }
 .container{
     display: flex;
@@ -47,13 +63,13 @@ form{
 }
 .buttons{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
-button{    
-    background-color: #f4f4f4;
+.search-buttons{
     color: #65696e;
-    border:solid;
     border-width: 1px;
+    border: solid;
+    background-color: #f4f4f4;
     border-color: #f4f4f4;
     border-radius: 5%;
     padding:10px;
@@ -74,4 +90,9 @@ input:hover{
     border-width: 1.5px;
     border-color: #a8a8a8;
     cursor: text;
+}
+a:hover{
+    text-decoration: underline;
+    border-color: #a8a8a8;;
+    cursor: pointer;
 }
