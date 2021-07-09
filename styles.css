@@ -15,8 +15,15 @@ div{
 .search-form{
     margin: 10px;
     flex-direction: column;
+    align-items: center;
 }
-button{
+#search{
+    justify-items: center;
+}
+.buttons{
+    flex-direction: row;
+}
+button{    
     background-color: #f4f4f4;
     color: #65696e;
     border: thin;
@@ -33,4 +40,4 @@ input{
     border: solid;
     border-width: 2px;
     border-color: #f4f4f4;
-    }
+}
