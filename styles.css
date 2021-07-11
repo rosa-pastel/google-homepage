@@ -1,5 +1,15 @@
-html{
+body{
     background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header{
     font-size: 13px;
@@ -16,6 +26,9 @@ a{
     opacity: 60%;
     margin: 15px;
 }
+.apps-icon:hover{
+    cursor: pointer;
+}
 .sign-in{
     background-color: #4583eb;
     color: white;
@@ -31,16 +44,6 @@ a{
 .sign-in:hover{
     border:none;
     box-shadow: 1px 1px 0.45px 0.50px #4583eb;
-}
-.container{
-    position: relative;
-    bottom: 130px;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 #search-bar{
     border-radius: 50px;
@@ -114,7 +117,6 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    align-self: end;
 }
 ul{
     display: flex;
