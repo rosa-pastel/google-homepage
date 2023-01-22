@@ -80,8 +80,8 @@ form{
     cursor: pointer;
 }
 .buttons{
-    display: flex;
-    justify-content: center;  
+    display: flex !important;
+    justify-content: center !important;  
 }
 .search-buttons{
     color: #404244;
